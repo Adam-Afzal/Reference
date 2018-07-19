@@ -21,6 +21,7 @@ import com.qa.persistence.domain.Trainee;
 public class TraineeDBRepository implements TraineeRepository {
 
 	private static final Logger LOGGER  = Logger.getLogger(TraineeDBRepository.class);
+	
 	@PersistenceContext(unitName = "primary")
 	private EntityManager manager;
 
